@@ -12,6 +12,7 @@ const randCol = randomColor({
 });
 
 const longLine = kuler('#'.repeat(31), `${randCol}`); //Variable for the long lines 31 '#'.
+
 const shortLine = // Variable for the two short lines with 5 '#' and no text in between
   kuler('#'.repeat(5), randCol) +
   ' '.repeat(21) +
@@ -44,12 +45,3 @@ console.log(
     '\n' +
     longLine,
 );
-//console.log(colorConvert);
-//console.log(shortLine);
-//console.log(colorName);
-//console.log(kuler.has(colorName));
-//const randCol = randomColor();
-
-console.log(randCol); //this is just to display the hex code of the color to see if it is the same as displayed in the box-design
-
-console.log(typeof `${argv[2]}`); //just to find out what type of Data argv is. Maybe i can work with the string data type in order to connect the input with generating the color.
