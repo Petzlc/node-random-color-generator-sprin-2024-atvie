@@ -11,13 +11,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@types/kuler": "^2.0.2",
     "@types/node": "^20.12.10",
+    "@types/randomcolor": "^0.5.9",
     "eslint-config-upleveled": "^8.1.0",
     "prettier": "^3.2.5",
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "install": "^0.13.0",
     "kuler": "^2.0.0",
     "randomcolor": "^0.6.2"
   }
