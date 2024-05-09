@@ -19,7 +19,8 @@ or
 - [x] figure out how to get the color printed in Hex
 - [x] figure out how to get an input from the user
 - [x] figure out how to pass on random colors to the box-design
-- [ ] figure out how to accept a hue and luminosity from the user
-  - [ ] Hue first, luminosity second
-  - [ ] figure out how to use the correct input-text and convert it into a color
-- [ ] figure out how to delete a file from package.json
+- [x] figure out how to accept a hue and luminosity from the user
+  - [x] Hue first, luminosity second
+  - [x] figure out how to use the correct input-text and convert it into a color
+- [ ]
+- [ ] figure out how to delete a file from package.json from the 'dependencies'
